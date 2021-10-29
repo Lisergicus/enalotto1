@@ -1,0 +1,20 @@
+{
+  "name": "enal",
+  "version": "1.0.0",
+  "description": "A fullstack Random number generetor project build",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Enalotto",
+    "random",
+    "number",
+    "geneterot"
+  ],
+  "author": "Lisergicus",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/Lisergicus/enalotto1"
+  }
+}
