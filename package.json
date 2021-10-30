@@ -16,5 +16,8 @@
   "license": "ISC",
   "repository": {
     "url": "https://github.com/Lisergicus/enalotto1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6"
   }
 }
