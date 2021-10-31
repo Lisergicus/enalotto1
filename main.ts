@@ -71,10 +71,10 @@ function createRuotaCnt(ruotaName: string, estrazioni: number[]) {
 
   for (const num of estrazioni) {
     const numP = document.createElement("p");
-    numP.innerText = " " + num;
+    numP.innerText = "" + num;
     const numDiv = document.createElement("div");
     numDiv.className = "ruota-estrazione";
-    ruotaDiv.appendChild(numP);
+    numDiv.appendChild(namP);
     ruotaDiv.appendChild(numDiv);
   }
 
