@@ -6,19 +6,19 @@ node and typescript development curse.
 
 ##Install
 
-'''bash
+```bash
 npm install
-'''
+```
 
 ## Usage backand
 
-'''bash
+```bash
 ts-node main.ts
-'''
+```
 
 exemple output:
 
-'''
+```
 {
 "Bari": [
 45,
@@ -98,4 +98,4 @@ exemple output:
 2
 ]
 }
-'''
+```
