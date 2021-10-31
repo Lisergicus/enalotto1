@@ -40,14 +40,25 @@ function RNGSequence(len: number, min: number, max: number) {
   return res;
 }
 
-const ruote = ["Roma", "Milano"];
+const ruote = [
+  "Bari",
+  "Cagliari",
+  "Firenze",
+  "Genova",
+  "Milano",
+  "Napoli",
+  "Palermo",
+  "Roma",
+  "Torino",
+  "Venezia",
+  "Nazionale",
+];
 
 const estrazioni: { [ruota: string]: number[] } = {};
 
 for (const ruota of ruote) {
   const estrazione = RNGSequence(5, 1, 91);
   estrazioni[ruota] = estrazione;
-  // console.log(ruota, estrazione);
 }
 
-console.log(estrazioni);
+console.log(JSON.stringify(estrazioni, null, 2));
