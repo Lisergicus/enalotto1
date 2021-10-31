@@ -49,3 +49,4 @@ for (const ruota of ruote) {
   estrazioni[ruota] = estrazione;
 }
 console.log(estrazioni);
+.
