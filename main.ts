@@ -47,7 +47,7 @@ const estrazioni: { [ruota: string]: number[] } = {};
 for (const ruota of ruote) {
   const estrazione = RNGSequence(5, 1, 91);
   estrazioni[ruota] = estrazione;
+  // console.log(ruota, estrazione);
 }
-console.log(estrazioni);
 
-.
+console.log(estrazioni);
